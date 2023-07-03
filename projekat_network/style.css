@@ -1,0 +1,260 @@
+
+* 
+{
+  font-family: 'Merriweather', serif;
+}
+
+.white
+{
+  background-color:  rgba(255, 255, 255, 0.322);
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 33px 0px rgba(255, 255, 255, 0.329);
+  -moz-box-shadow: 0px 0px 33px 0px rgba(255, 255, 255, 0.329);
+  box-shadow: 0px 0px 33px 0px rgba(255, 255, 255, 0.329); 
+}
+
+
+
+p, a
+{
+  font-size: 1.2rem;
+}
+nav 
+  {
+    background-color:#a1a1a1;
+  }
+
+img
+{
+
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+
+
+.navbar-brand
+{
+  font-weight: bold;
+  margin-right: 2px;
+}
+
+.white a
+{
+  text-decoration: none;
+}
+
+.white h1 
+{
+  border-bottom: 1px solid black;
+  font-weight: bold;
+  font-size: 3rem;
+
+}
+@media only screen and (max-width:768px)
+{
+  .index
+  {
+    background-image: url('images/3.png');
+  }
+
+  
+  .white
+  {
+    background-color:  rgba(196, 178, 178, 0.473);
+  }
+
+  .white
+  {
+    margin-top: 40%;
+  }
+
+  .name
+  { 
+    border-top: 1px solid black;
+    font-weight: bold;
+  }
+
+  .navbar-nav:first-child
+  {
+    border-top: 1px solid black;
+  }
+
+
+  .followers
+  {
+    background-image: url('images/5.png');
+    text-align: center;
+  }
+  
+  .followers .white
+  {
+    background-color:white;
+  }
+
+  .profile input[type=text], input[type=date], input[type=file] 
+  {
+    background-color:#838282;
+
+  }
+  .profile .white
+  {
+    background-color:#a1a1a1;
+
+  }
+  .profile
+  {
+    background-image: url('images/3.png');
+  }
+
+  .register
+  {
+    background-image: url('images/3.png');
+    
+  }
+
+  
+  .register .white
+  {
+    background-color:#a1a1a1;
+  } 
+
+  .register input[type=text], input[type=password] 
+  {
+    background-color:#838282;
+}
+
+ 
+}
+
+
+@media only screen and (min-width:768px)
+{
+  .index
+  {
+    background-image: url('images/1.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .name
+  {
+    border-left: 1px solid black;
+    font-weight: bold;
+  }
+
+  .navbar-brand
+  {
+    padding-right: 10px;
+    border-right: 1px solid black;
+
+  }
+
+  .white
+  {
+    margin-top: 10%;
+  }
+
+  nav 
+  {
+  background-color: #e3f2fd;
+  }
+
+  .profile
+  {
+    background-image: url('images/5.png');
+  }
+
+  .profile .white
+  {
+    background-color: white;
+  }
+  .followers
+  {
+    background-image: url('images/5.png');
+    text-align: center;
+  }
+  
+  .followers .white
+  {
+    background-color: white;
+
+  }
+  .register
+  {
+    background-image: url('images/4.png');
+  }   
+
+    .register .white
+  {
+    background-color: white;
+  }
+
+  .register input[type=text], input[type=password] 
+  {
+    background-color: #e3f2fd;
+  }
+}
+
+
+/* --------------------- */
+.error
+{
+  color: red;
+}
+
+.success
+{
+  color: green;
+}
+
+
+
+table
+{
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.profile
+{
+  font-size: 1.2rem;
+}
+
+.profile label
+{
+  font-size: 1.6rem;
+}
+.register 
+{
+  font-size: 1.2rem;
+}
+
+.register label
+{
+  font-size: 1.6rem;
+}
+.followers 
+{
+  font-size: 1.2rem;
+}
+
+.followers label
+{
+  font-size: 1.6rem;
+}
+
+
+table
+{
+  font-size: 1.5rem;
+}
+
+table th
+{
+  border-bottom: 5px solid black;
+}
+/* --------------------- */ 
+

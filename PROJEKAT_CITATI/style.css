@@ -1,0 +1,29 @@
+body {
+  height: 900px;
+}
+
+nav .container-fluid .d-flex {
+  margin: auto;
+}
+
+ul {
+  margin: auto;
+}
+
+img {
+  height: 500px;
+  width:1300px;
+  object-fit: contain;
+  padding: 20px 0;
+}
+
+main .col-8 {
+  -moz-box-shadow:0 5px 5px rgba(182, 182, 182, 0.75);
+  -webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+  box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+}
+
+.navbar div .collapse ul li{
+ font-size: 20px;
+ margin: 0 15%;
+}
